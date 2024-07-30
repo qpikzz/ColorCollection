@@ -1,5 +1,5 @@
 # Color Collection
-# Версия: 1.0
+# Версия: 1.0 release
 
 # Создатель: qpikzz (https://t.me/qpikzzbot)
 # Актуальные версии: https://github.com/qpikzz
