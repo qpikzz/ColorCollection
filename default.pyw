@@ -16,7 +16,13 @@ def download():
             palette.write(default[file])
     
 if __name__ == "__main__":
+
+    # Создание директории для хранения палитр, если её нет
+    if not os.path.isdir("saves"):
+        os.mkdir("saves")
+
     download()
+    
     mb.showinfo(title="успех!",message="набор установлен!")
 
     path = os.path.dirname(os.path.abspath(__file__))
