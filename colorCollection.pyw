@@ -54,6 +54,11 @@ pagesFrame = None
 pageLabel = None
 
 
+# Создание директории для хранения палитр, если её нет
+if not os.path.isdir("saves"):
+    os.mkdir("saves")
+
+
 # Окно
 tk = Tk()
 tk.geometry("720x480")
